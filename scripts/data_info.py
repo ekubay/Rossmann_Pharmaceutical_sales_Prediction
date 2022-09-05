@@ -2,8 +2,9 @@
 import pandas as pd
 
 class DataInfo:
-    def __init__(self, df):
-        self.df = df.copy()
+    def __init__(self):
+        def __init__(self):
+            pass
 
     # shape of the dataframe
     def shape_df(self):
@@ -45,6 +46,10 @@ class DataInfo:
     # datatyps
     def get_tyep(self):
         print(self.dtype)
+    # covnverting labels
+    def convert_labels(df):
+        df.columns = [column.replace(' ', '_').lower() for column in df.columns]
+        return df
 
 
 
