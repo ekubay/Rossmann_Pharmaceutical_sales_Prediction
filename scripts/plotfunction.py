@@ -66,3 +66,9 @@ def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str,
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     plt.show()
+def heatmap(df,title='', annot=True):
+  #setup()
+  plt.title(title)
+  correlation = df.corr()
+  sns.heatmap(correlation,square = True, linewidths = .5, cmap = "BuPu", annot=annot)
+  return
