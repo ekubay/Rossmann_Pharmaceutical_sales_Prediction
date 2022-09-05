@@ -40,7 +40,7 @@ class DataInfo:
     
     # duplication
     def get_duplication(self):
-        print(self.duplicated().sum())
+        print(self.duplicated().any().sum())
         
     # datatyps
     def get_tyep(self):
