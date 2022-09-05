@@ -1,0 +1,6 @@
+name: main
+on:
+  push:
+    branches:
+      - main
+      - unit_tests
