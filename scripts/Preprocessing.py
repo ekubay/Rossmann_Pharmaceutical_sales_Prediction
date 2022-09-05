@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
-from helper import MyHelper
+from data_info import DataInfo
 
 
-class MyCleaner:
+class dataPreprocess:
     def __init__(self, df: pd.DataFrame):
         self.df = df
         
