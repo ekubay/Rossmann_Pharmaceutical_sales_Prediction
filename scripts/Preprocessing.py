@@ -30,7 +30,7 @@ class dataPreprocess:
         return df
 
     def drop_columns_with_null_values(self, df: pd.DataFrame, threshold_in_percent=30) -> pd.DataFrame:
-        Helper = MyHelper()
+        Helper = DataInfo()
 
         null_percent_df = pd.DataFrame(columns=['column', 'null_percent'])
         columns = df.columns.values.tolist()
@@ -46,7 +46,7 @@ class dataPreprocess:
         return df
 
     def drop_rows_with_null_values(self, df: pd.DataFrame, threshold_in_percent=1) -> pd.DataFrame:
-        Helper = MyHelper()
+        Helper = DataInfo()
 
         null_percent_df = pd.DataFrame(columns=['column', 'null_percent'])
         columns = df.columns.values.tolist()
