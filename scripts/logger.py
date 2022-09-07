@@ -1,7 +1,7 @@
 import logging
 
 
-class App_Logger:
+class Logger:
 
   def __init__(self, file_name: str, basic_level=logging.INFO):
     # Gets or creates a logger
@@ -18,6 +18,6 @@ class App_Logger:
     logger.addHandler(file_handler)
 
     self.logger = logger
-  
+    
   def  get_app_logger(self) -> logging.Logger:
     return self.logger

@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import pandas as pd
 import sys, os
+from pandas.plotting import scatter_matrix
 sys.path.append(os.path.abspath(os.path.join('../scripts')))
 from log_config import logger
 def plot_hist(df: pd.DataFrame, column: str, color: str) -> None:
