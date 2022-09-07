@@ -1,7 +1,8 @@
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import numpy as np
-
-from scripts.logger_config import logger
+import sys,os
+sys.path.append(os.path.abspath(os.path.join('../scripts')))
+from log_config import logger
 
 def get_null_percentage(df):
   total_size = np.prod(df.shape)
