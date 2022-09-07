@@ -11,8 +11,8 @@ class App_Logger:
     logger.setLevel(basic_level)
 
     # define file handler and set formatter
-    file_handler = logging.FileHandler(file_name)
-    formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
+    file_handler = logging.FileHandler(f'../logs/{file_name}')
+    formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s', '%m-%d-%Y %H:%M:%S')
     
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
