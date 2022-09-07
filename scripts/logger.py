@@ -18,6 +18,6 @@ class Logger:
     logger.addHandler(file_handler)
 
     self.logger = logger
-  
+    
   def  get_app_logger(self) -> logging.Logger:
     return self.logger
