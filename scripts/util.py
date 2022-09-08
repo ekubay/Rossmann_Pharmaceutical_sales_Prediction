@@ -13,8 +13,8 @@ def get_null_percentage(df):
   null_percentage = round((null_count / total_size) * 100, 2)
 
   logger.info(f'util.py - calculate null percentage: {null_percentage}')
+  print(f'the null percentage is {null_percentage}')
   return null_percentage
-
 
 def get_holiday(value):
   logger.info(f'util.py - get holiday for : {value}')
