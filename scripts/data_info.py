@@ -1,5 +1,6 @@
 # import 
 import pandas as pd
+import sys, os
 sys.path.append(os.path.abspath(os.path.join('../scripts')))
 from log_config import logger
 class DataInfo:
@@ -8,11 +9,11 @@ class DataInfo:
         
     # shape of the dataframe
     def shape_df(self):
-         '''
-         Display number of rows and columns in the given Dataframe
-         '''
-         print(f"Dataframe contains {self.df.shape[0]} rows and {self.df.shape[1]} columns")
-         #return (self.df.shape[0],self.df.shape[1])
+        '''
+        Display number of rows and columns in the given Dataframe
+        '''
+        print(f"Dataframe contains {self.df.shape[0]} rows and {self.df.shape[1]} columns")
+        #return (self.df.shape[0],self.df.shape[1])
         logger.info('data info: displying shape of the dataframe')
 
     # info
