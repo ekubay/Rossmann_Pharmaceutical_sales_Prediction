@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Ekubay/Documents/Rossmann_Pharmaceutical_sales_Prediction/mlruns/3/26244dd7905c44458119af081faa49a4/artifacts
+end_time: 1662822898474
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+name: ''
+run_id: 26244dd7905c44458119af081faa49a4
+run_uuid: 26244dd7905c44458119af081faa49a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662822896452
+status: 3
+tags: []
+user_id: Ekubay
