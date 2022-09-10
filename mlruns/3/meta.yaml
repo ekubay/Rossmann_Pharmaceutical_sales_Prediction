@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Ekubay/Documents/Rossmann_Pharmaceutical_sales_Prediction/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: Random Forest
