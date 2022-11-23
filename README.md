@@ -5,7 +5,7 @@ Machine Learning is a subset of AI which uses statistical methods to enable mach
 The finance team at Rossmann Pharmaceuticals wants to forecast sales in all their stores across several cities six weeks ahead of time so that, forecasting the sales prediction using machine learning and deep learning as well as exploring the customer purchasing behavior is to be conducted and draw conclusion in this project.
 
 ## Sales prediction workflow diagram
-![](screenshot/salesPredictionWorkflow.png)
+![](screenshot/salesPredictionWorkflow1.png)
 
 ## Data
 The data can be found [here](https://open-traffic.epfl.ch/index.php/downloads/#1599047632450-ebe509c8-1330)
