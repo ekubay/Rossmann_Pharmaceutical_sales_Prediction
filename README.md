@@ -8,7 +8,7 @@ The finance team at Rossmann Pharmaceuticals wants to forecast sales in all thei
 ![](screenshot/salesPredictionWorkflow1.png)
 
 ## Data
-The data can be found [here](https://open-traffic.epfl.ch/index.php/downloads/#1599047632450-ebe509c8-1330)
+The data for project can be found at [Rossmann Store Sales | Kaggle](https://www.kaggle.com/competitions/rossmann-store-sales/data)
 
 You can find the full list of requirements in the requirements.txt file
 
