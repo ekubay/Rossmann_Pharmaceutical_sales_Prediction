@@ -50,4 +50,4 @@ pip install -r requirements.txt
 
 ## Show your support
 
-> Give a ⭐ if you like this project, and also feel free to contact us at any moment.
+> Give a ⭐ if you like this project, and also feel free to contact me at any moment.
