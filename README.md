@@ -38,6 +38,8 @@ pip install -r requirements.txt
 
 > All the scripts and modules used for this project relating are found in the scripts folder
 
+## Tableau Dashboard
+> The partial implementation dashboard for the sales is found [here] (https://public.tableau.com/app/profile/ekubay4617/viz/salesdataanalysis1/Report-1)
 ## Tests
 
 > All the unit and integration tests are found here in the tests folder.
